@@ -1,13 +1,14 @@
 import { Routes, Route, Link } from 'react-router-dom';
-import Navigation from './components/navigation/navigation';
+import Header from './views/header';
+import Home from './views/home';
 
 function App() {
   return (
     <>
-      <Navigation />
-      {/* TODO Container Will Be Here s */}
+      <Header />
+      {/* TODO Container Will Be Here */}
       <Routes>
-        <Route />
+        <Route path="/" element={<Home />} />
       </Routes>
     </>
   );

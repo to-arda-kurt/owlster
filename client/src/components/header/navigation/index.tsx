@@ -1,9 +1,7 @@
-import React from 'react';
-
 type Props = {};
 
 const Navigation = (props: Props) => {
-  return <div>navigation</div>;
+  return <nav>Navigation</nav>;
 };
 
 export default Navigation;
